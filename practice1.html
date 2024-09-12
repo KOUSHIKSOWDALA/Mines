@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mines</title>
+        <link rel="stylesheet" href="./styless.css">
+    </head>
+    <body>
+        <header>
+            <div class="name">
+                <h1>Mines</h1>
+            </div>
+            <div class="currency-container">
+                <span class="currency-symbol">₹</span>
+                <span class="currency-amount">499.12   <i class="fa-solid fa-coins"></i></span>
+            </div>
+        </header>
+        <div class="flex">
+            <div class="Amount">
+                <label for="amt1">Bet Amount</label><br>
+                <div class="textbtn"> 
+                    <input type="number" name="amt" id="amt1" class="betamt" required>
+                    <button id="half">1/2</button>
+                    <button id="twice">2x</button><br>
+                </div>
+                <label for="mines">Mines</label><br>
+                <div >
+                    <select name="mines" id="mines">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select><br>
+                </div>
+                <button id="bet">Bet</button>
+            </div>
+            <div class="calculate hidden">
+                <label for="amt">Bet Amount</label><br>
+                <p id="amt"></p><br>
+                <label>Mines</label>
+                <p id="calmines"></p>
+                <label>Gems</label>
+                <p id="calgems"></p>
+                <label for="total">Total Profit</label><br>
+                <p id="total"></p><br>
+                <button id="cashOut">Cashout</button>
+            </div>
+            <div id="container">
+                <button value="1" class="btn"></button>
+                <button value="2" class="btn"></button>
+                <button value="3" class="btn"></button>
+                <button value="4" class="btn"></button>
+                <button value="5" class="btn"></button>
+                <button value="6" class="btn"></button>
+                <button value="7" class="btn"></button>
+                <button value="8" class="btn"></button>
+                <button value="9" class="btn"></button>
+                <button value="10" class="btn"></button>
+                <button value="11" class="btn"></button>
+                <button value="12" class="btn"></button>
+                <button value="13" class="btn"></button>
+                <button value="14" class="btn"></button>
+                <button value="15" class="btn"></button>
+                <button value="16" class="btn"></button>
+                <button value="17" class="btn"></button>
+                <button value="18" class="btn"></button>
+                <button value="19" class="btn"></button>
+                <button value="20" class="btn"></button>
+                <button value="21" class="btn"></button>
+                <button value="22" class="btn"></button>
+                <button value="23" class="btn"></button>
+                <button value="24" class="btn"></button>
+                <button value="25" class="btn"></button>
+
+            </div>
+        </div>
+        <script src="pract.js"></script>
+    </body>
+</html>

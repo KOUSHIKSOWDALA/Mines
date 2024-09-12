@@ -1,0 +1,228 @@
+body {
+    background-color: gray;
+
+}
+
+.flex {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.currency-container {
+    background-color: #19252b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    gap: 5px; 
+    margin: auto;
+    margin-top: 100px;
+}
+
+#container button {
+    height: 80px;
+    width: 80px;
+    background-color: #444;
+    border: 1px solid #333;
+    color: white;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#container button:hover {
+    background-color: #555;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: #19252b;
+}
+.name{
+    margin-left: 70px;
+    color: white;
+}
+
+.Amount,
+.calculate {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-left: 250px;
+    height:auto;
+}
+
+
+.Amount label,
+.calculate label {
+    font-size: 18px;
+    color: #333333;
+    margin-top: 20px;
+    display: block;
+}
+
+
+.textbtn {
+    display: flex; 
+    align-items: center; 
+}
+
+.betamt {
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-right: -1px;
+    height:15px; 
+}
+
+
+.textbtn button {
+    padding: 10px 15px;
+    border: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: -1px;
+    margin-left: -1px; 
+    border: 1px solid #ccc;
+}
+
+.textbtn button:hover {
+    background-color: #0056b3;
+}
+
+
+#bet,#cashOut {
+    background-color:#19252b;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#bet,#cashOut:hover {
+    background-color: #0056b3;
+}
+
+#mines {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 1px;
+}
+
+
+.calculate p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.flex {
+    background-color: gray;
+    padding: 0;
+    display: flex;
+    margin-top: 20px;
+    flex: 2 1;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.currency-container {
+    background-color: #f1e2e2;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.mines-buttons{
+    width:50vw;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    column-gap: 30px; 
+    row-gap: 10px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#container button {
+    height: 100px;
+    width: 100px;
+    background-color: #444;
+    border: 1px solid #333;
+    color: white;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#container button:hover {
+    background-color: #555;
+}
+
+.hidden {
+    display: none;
+}
